@@ -23,7 +23,7 @@ list1=websites['name'].tolist()
 class voiceactivation:
     #Method to take voice commands as input
     def connect(self):
-5        try:
+        try:
             urllib.request.urlopen('http://google.com')
             return True
         except:
